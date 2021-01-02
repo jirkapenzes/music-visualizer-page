@@ -6,29 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Music Visualizer</title>
 
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/milligram/1.3.0/milligram.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 
     <style>
         body {
-            margin-top: 90px;
-            color: white;
             background-image: linear-gradient(#1a1a1a, #272727, #1a1a1a);
-        }
-
-        img.screenshot {
-            max-width: 35.0em;
+            font-family: 'Roboto', sans-serif;
+            color: white;
+            text-align: center;
+            margin-top: 90px;
         }
 
         div.screenshot {
-            text-align: center;
+            max-width: 45.0em;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        img.screenshot {
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 36pt;
+        }
+
+        h3 {
+            margin-bottom: 36px;
         }
 
         .title {
-            margin-top: 16px;
+            margin-top: 26px;
             text-align: center;
-            padding-bottom: 90px;
+            padding-bottom: 50px;
         }
 
         .aligner {
@@ -50,23 +61,22 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="screenshot">
-            <img alt="Music Visualizer" class="screenshot" src="./images/screen_0.png" />
-        </div>
+    <div class="screenshot">
+        <img alt="Music Visualizer" class="screenshot" src="./images/screen_0.png" />
+    </div>
 
-        <div class="title">
-            <h1>Music Visualizer</h1>
-            <h2>Real time audio visualisation. Simple and clean audio visual effects based on microphone.</h2>
-            <a href="https://apps.apple.com/us/app/music-visualizer/id1546161711"><img alt="App Store"
-                src="./images/app_store.svg" />
-            </a>
-        </div>
+    <div class="title">
+        <h1>Music Visualizer</h1>
+        <h2>Real time audio visualisation</h2>
+        <h3>Simple and clean audio visual effects based on microphone.</h3>
+        <a href="https://apps.apple.com/us/app/music-visualizer/id1546161711">
+            <img alt="App Store" src="./images/app_store.svg" />
+        </a>
+    </div>
 
-        <div class="footer">
-            Developed by&nbsp;<a class="footer" href="http://penzes.cz">jirkapenzes</a>, <a class="footer"
-                href="/policy">privacy policy</a>, <a class="footer" href="/terms-and-conditions/">terms and conditions</a>
-        </div>
+    <div class="footer">
+        Developed by&nbsp;<a class="footer" href="http://penzes.cz">jirkapenzes</a>, <a class="footer"
+            href="/policy">privacy policy</a>, <a class="footer" href="/terms-and-conditions/">terms and conditions</a>
     </div>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
